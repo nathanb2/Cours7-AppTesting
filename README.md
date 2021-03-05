@@ -4,6 +4,7 @@ Exemple test unitaire et Android test
 
 On peut tester une application Android a plusieurs niveaux reunis en 2 groupes, les tests purement Java et les AndroidTests necessitant l'intercation avec l'OS Android essentillement pour manipuler les vues et tester le UI
 
+- Les annotations @setUp et @before permettent de realiser des actions avant de lancer une classe de tests ou apres la realisation des tests
 
 - Pour les tests unitaires on appele la fonction du code a tester et avec assert comparons le resltat attendu au resultat reelement retourne par la fonction
 
